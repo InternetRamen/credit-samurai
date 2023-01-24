@@ -5,7 +5,6 @@ export interface CompatibilityItem {
 }
 
 export interface FeatureItem {
-  description: string;
   icon: string;
   title: string;
 }
