@@ -6,20 +6,19 @@ import { getShowcase } from "~/data/showcase";
 const sites = await getShowcase();
 ---
 
-<ContentSection title="Showcase" id="showcase">
+<ContentSection title="Tips" id="showcase">
   <Fragment slot="lead">
-    Astro is <span class="text-primary">versatile</span>.{" "}
-    <span class="text-primary">Explore</span> what's possible and get{" "}
-    <span class="text-primary">inspired</span>.
+    Credit is <span class="text-primary">dangerous</span>, but also very useful.
   </Fragment>
-  <div class="max-w-6xl space-y-2">
-    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-      {sites.map((site) => <ShowcaseCard site={site} />)}
-    </div>
-    <p class="text-right text-sm">
-      <a class="text-primary" href="https://astro.build/showcase/">
-        ...and more &rarr;
-      </a>
-    </p>
+  <div class="max-w-3xl space-y-2">
+    <ul class=" list-disc">
+        <li>Learn the difference between safe credit and dangerous credit (mortgages are safer than trading on margin).</li>
+        
+        <li>Pay at least the minimum to circumvent late fees.</li>
+        
+        <li>Diversify the types of credit you have.</li>
+
+        <li>Credit is real money.</li>
+    </ul>
   </div>
 </ContentSection>

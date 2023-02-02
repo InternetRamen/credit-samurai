@@ -1,7 +1,6 @@
 export interface CompatibilityItem {
-  icon: string;
+  percent: string;
   title: string;
-  url: string;
 }
 
 export interface FeatureItem {
